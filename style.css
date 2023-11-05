@@ -1,0 +1,49 @@
+.text-color {
+  color: #ebeaea;
+}
+.background-color {
+  background-color: #000000;
+}
+.primary-color {
+  background-color: #ffffff;
+}
+.secondary-color {
+  background-color: #ae0000;
+}
+.secondary-color-text {
+  color: #ae0000;
+}
+.accent-color {
+  background-color: #a19e9e;
+}
+
+.button:hover {
+  background-color: #565656;
+  color: #ebeaea;
+}
+
+.background-image-coding {
+  background-image: url(\images\coding-background-image.png);
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #a7a6a6, #353535, #ffffff);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
